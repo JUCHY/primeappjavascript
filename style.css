@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.left{
+    float:left;
+}
+.right{
+    float:right;
+}
+.navbar{
+    width: 100%;
+    height: 48px;
+    background-color: black;
+
+}
+
+.coolbox {
+    border: 20px red;
+}
+input {
+    outline-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    
+}
+input[type=text]:focus {
+    border: 3px solid #555;
+    background-color: lightblue;
+
+}
+div{
+    widows: 60%;
+    height: 50%;
+}
+.center {
+    margin: auto;
+    width: 60%;
+    text-align: center;
+    padding: 10px;
+}
+ #grad {
+    background: radial-gradient(white,lightgrey ,black);
+  }
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+
+}
+.info {
+    padding-left: 20px;
+    height: 800px; /* or any value */
+    overflow-x: auto;
+    overflow-y: auto;
+}
